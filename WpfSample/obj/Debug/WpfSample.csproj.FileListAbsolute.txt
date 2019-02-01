@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\bin\Debug\WpfSample.exe.config
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\bin\Debug\WpfSample.exe
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\bin\Debug\WpfSample.pdb
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\obj\Debug\MainWindow.g.cs
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\obj\Debug\App.g.cs
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\obj\Debug\WpfSample_MarkupCompile.cache
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\obj\Debug\WpfSample_MarkupCompile.lref
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\obj\Debug\MainWindow.baml
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\obj\Debug\WpfSample.g.resources
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\obj\Debug\WpfSample.Properties.Resources.resources
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\obj\Debug\WpfSample.csproj.GenerateResource.Cache
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\obj\Debug\WpfSample.exe
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\obj\Debug\WpfSample.pdb
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\obj\Debug\Views\Sales.g.cs
+C:\Users\hp\Desktop\Vijay\WpfSample\WpfSample\obj\Debug\Views\Sales.baml
