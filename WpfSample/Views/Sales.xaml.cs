@@ -30,9 +30,9 @@ namespace WpfSample.Views
         }
         private void OnProductSelected(object sender, EventArgs e)
         {
-            var selectedItem = (sender as ComboBox).SelectedItem;
-            if (!ViewModel.OnProductSelectedCommand.CanExecute(selectedItem)) return;
-            ViewModel.OnProductSelectedCommand.Execute(selectedItem);
+            
+            if (!ViewModel.OnProductSelectedCommand.CanExecute(null)) return;
+            ViewModel.OnProductSelectedCommand.Execute(null);
                
         }
     }

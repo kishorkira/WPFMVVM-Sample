@@ -73,7 +73,7 @@ namespace WpfSample.ViewModels
             {
                 if (_onProductSelectedCommand == null)
                 {
-                    _onProductSelectedCommand = new RelayCommand(p => CanUpdateOnProductSelected(p as Product), p=> UpdateOnProductSelected(p as Product));
+                    _onProductSelectedCommand = new RelayCommand(p => CanUpdateOnProductSelected(), p=> UpdateOnProductSelected());
                 }
                 return _onProductSelectedCommand;
 
@@ -92,13 +92,13 @@ namespace WpfSample.ViewModels
             // temp code
             MessageBox.Show("Save Clicked");
         }
-        private bool CanUpdateOnProductSelected(Product selcetedProduct)
+        private bool CanUpdateOnProductSelected()
         {
-            return selcetedProduct != null;
+            return SelectedProduct != null;
         }
-        public void UpdateOnProductSelected(Product selcetedProduct)
+        public void UpdateOnProductSelected()
         {
-            Rate = selcetedProduct.Rate;
+            Rate = SelectedProduct.Rate;
             Quantity = 0;
         }
 
