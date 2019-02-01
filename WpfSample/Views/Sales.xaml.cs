@@ -28,10 +28,11 @@ namespace WpfSample.Views
             InitializeComponent();
             DataContext = new SalesViewModel();
         }
-        private void OnProductSelected(object sender, SelectionChangedEventArgs e)
+        private void OnProductSelected(object sender, EventArgs e)
         {
-            if (!ViewModel.OnProductSelectedCommand.CanExecute(e.AddedItems[0])) return;
-            ViewModel.OnProductSelectedCommand.Execute(e.AddedItems[0]);
+            var selectedItem = (sender as ComboBox).SelectedItem;
+            if (!ViewModel.OnProductSelectedCommand.CanExecute(selectedItem)) return;
+            ViewModel.OnProductSelectedCommand.Execute(selectedItem);
                
         }
     }
